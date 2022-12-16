@@ -11,7 +11,7 @@ class Universal extends Plugin {
 
   async search(query, requester){
     const finalQuery = query?.query || query;
-    if(!regex.test(finalQuery) || blacklisted.includes(finalQuery.toLowerCase())) return this._search(query, requester)
+    if(!regex.test(finalQuery) || finalQuery.toLowerCase().split(".").some(d => blacklisted.includes(d))) return this._search(query, requester)
     const data = await resolver(finalQuery)
     if(!data){
       return this._search(query, requester)
