@@ -2,7 +2,7 @@ const { Plugin } = require('erela.js')
 const resolver = require("./util/resolver")
 
 const regex = /^https:\/\/[^ "]+$/;
-const blacklisted = ["youtube", "souncloud", "deezer", "twitch", "vimeo", "bandcamp", "getyarn", "clyp", "reddit", "mixcloud", "soundgasm", "spotify", "deezer", "apple", "yandex", "pornhub"] 
+const blacklisted = ["youtube", "spotify", "souncloud", "deezer", "twitch", "vimeo", "bandcamp", "getyarn", "clyp", "reddit", "mixcloud", "soundgasm", "spotify", "deezer", "apple", "yandex", "pornhub"] 
 
 class Universal extends Plugin {
   constructor(){
