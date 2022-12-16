@@ -1,6 +1,6 @@
 {
   "name": "erela.js-universal",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Plugin that uses the power of scraping to find title and search it on other platforms",
   "main": "src/index.js",
   "scripts": {
