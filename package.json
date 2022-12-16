@@ -1,0 +1,20 @@
+{
+  "name": "erela.js-universal",
+  "version": "1.0.0",
+  "description": "Plugin that uses the power of scraping to find title and search it on other platforms",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NeroDevelopment/erela.js-universal.git"
+  },
+  "keywords": [],
+  "author": "NeroDevelopment",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NeroDevelopment/erela.js-universal/issues"
+  },
+  "homepage": "https://github.com/NeroDevelopment/erela.js-universal#readme"
+}
